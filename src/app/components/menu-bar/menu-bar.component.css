@@ -1,0 +1,68 @@
+.menu-selecion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 998;
+    position: fixed;
+    top:35px;
+}
+
+.logo-ps-blue {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.logo-ps-blue > img {
+    height: 24px;
+}
+.login-seach {
+    display: flex;
+}
+.login-seach > button {
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color:  #0070d1;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    margin-right: 20px;
+    
+}
+
+.login-seach > a > img {
+    height: 25px;
+}
+
+
+/* ============== */
+
+.menu-bar_container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 997;
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+
+    top: 75px;
+
+
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menu-bar_logo {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar-itens {
+    display: flex;
+    margin: auto;
+}

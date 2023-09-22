@@ -1,0 +1,23 @@
+.home_container {
+    width: 90%;
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.icons {
+    width: 85%;
+    margin-top: -80px;
+}
+
+h3 {
+    margin-top: 60px;
+    color: #FFF;
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}

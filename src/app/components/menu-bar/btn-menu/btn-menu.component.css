@@ -1,0 +1,25 @@
+button {
+    background-color: #FFF;
+    color: gray;
+    margin: 10px;
+    font-weight: 600;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: #FFF;
+    position: fixed;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.btn-menu_content {
+    display: flex;
+}
+
+

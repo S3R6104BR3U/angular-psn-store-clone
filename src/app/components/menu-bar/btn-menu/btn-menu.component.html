@@ -1,0 +1,61 @@
+<button (click)="[ openMenu() ]">{{ btnName }}</button>
+ <section *ngIf= btnMenu >
+    <div class="btn-menu_container">
+        <div class="btn-menu_content">
+            <app-card-menu
+                *ngIf="ps5"
+                item="PS5"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="ps4"
+                item="PS4"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="psvr"
+                item="PS VR"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="psPlus"
+                item="PS plus"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="comprarJogos"
+                item="Comprar jogos"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="ps4Pro"
+                item="PS4 Pro"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="psvr2"
+                item="PS VR2"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="psStars"
+                item="PS Stars"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="psBlog"
+                item="PS Blog"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="esteMesNoPlayStation"
+                item="Este mês no PlayStation"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="psStore"
+                item="PS Blog"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="suporte"
+                item="Suporte"
+            ></app-card-menu>
+            <app-card-menu
+                *ngIf="statusDaPsn"
+                item="Status da PSN"
+            ></app-card-menu>
+        </div>
+    </div>
+</section>
+
+

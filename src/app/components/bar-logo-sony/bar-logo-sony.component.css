@@ -1,0 +1,15 @@
+.bar-logo-sony_container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    z-index: 999;
+}
+
+.bar-logo-sony_container > img {
+    width: 80px;
+}
